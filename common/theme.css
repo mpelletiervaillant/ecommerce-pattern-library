@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #ffc400;
+  --color-secondary: #383838;
+  --color-light-background: #f7f7f7;
+  --color-border: #95989a;
+
+  --font-primary: "Open Sans", Arial, sans-serif;
+  --font-secondary: "Oswald", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
