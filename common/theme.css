@@ -10,3 +10,50 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1 {
+  font-family: var(--font-secondary);
+  font-weight: 300;
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+
+h3 {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+h5 {
+  font-family: var(--)
+}
+
+h6 {
+  font-weight: 500;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+blockquote {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+cite {
+  font-weight: 500;
+  color: var(--color-secondary);
+}
+
+q {
+  font-style: italic;
+}
