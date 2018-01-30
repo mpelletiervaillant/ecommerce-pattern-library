@@ -1,5 +1,6 @@
 :root {
   --color-primary: #ffc400;
+  --color-primary-light: #ffe4a6;
   --color-secondary: #383838;
   --color-light-background: #f7f7f7;
   --color-border: #95989a;
@@ -9,6 +10,11 @@
 
 html {
   font-family: var(--font-primary);
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: #000;
 }
 
 h1 {
@@ -28,10 +34,6 @@ h3 {
 
 h4 {
   font-weight: 500;
-}
-
-h5 {
-  font-family: var(--)
 }
 
 h6 {
@@ -56,4 +58,8 @@ cite {
 
 q {
   font-style: italic;
+}
+
+mark {
+  background-color: var(--color-primary);
 }
