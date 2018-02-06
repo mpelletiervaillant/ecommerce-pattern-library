@@ -1,0 +1,13 @@
+
+.item-card {
+  border: 1px solid var(--color-border);
+}
+
+.price {
+  border-left: 1px solid var(--color-border);
+}
+
+.icon-card {
+  border: 1px solid var(--color-border);
+  border-left: 20px solid var(--color-primary);
+}

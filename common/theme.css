@@ -26,11 +26,13 @@ h1 {
 h2 {
   font-family: var(--font-secondary);
   font-weight: normal;
+  text-transform: uppercase;
 }
 
 h3 {
   font-family: var(--font-secondary);
-  font-weight: normal;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 h4 {
