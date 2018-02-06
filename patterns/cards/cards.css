@@ -17,8 +17,26 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .white {
   color: #fff;
+}
+
+.item-card {
+  transition: all .25s ease-in-out;
+}
+
+.item-card:hover {
+  transform: scale(1.025);
+}
+
+.shop-card {
+  transition: all .25s ease-in-out;
+}
+
+.shop-card:hover {
+  transform: scale(1.06);
 }
