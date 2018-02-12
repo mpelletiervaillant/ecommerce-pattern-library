@@ -24,15 +24,6 @@
   border-color: var(--color-primary);
 }
 
-.btn-light {
-  background-color: var(--color-secondary-light);
-  border-color: var(--color-secondary-light);
-}
-
-.btn-light:hover {
-  border-color: var(--color-secondary);
-}
-
 .btn-ghost {
   background-color: transparent;
   border-color: var(--color-primary);

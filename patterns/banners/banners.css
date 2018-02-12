@@ -1,0 +1,35 @@
+.main-banner-content {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(56, 56, 56, .7);
+  width: 100%;
+  color: #fff;
+}
+
+.main-banner {
+  background: url("http://via.placeholder.com/1440x500") center / cover no-repeat;
+  height: 500px;
+}
+
+.info-banner {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.info-banner h3 {
+  font-weight: bold;
+}
+
+.product-banner-content {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: #fff;
+}
+
+.product-banner {
+  background: url("http://via.placeholder.com/1440x500") center / cover no-repeat;
+  height: 300px;
+}
