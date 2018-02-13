@@ -7,14 +7,14 @@
   text-transform: uppercase;
 
   color: #fff;
-  transition: all, .35s, ease-in-out;
+  transition: background-color, .35s, scale, .35s;
 }
 
 .btn:hover {
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
 
-  transform: scale(1.08);
+  transform: scale(1.06);
 }
 
 .btn-dark {
