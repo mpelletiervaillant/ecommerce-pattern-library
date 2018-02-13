@@ -9,7 +9,7 @@ fonts:
   secondary: |
     The secondary typeface is narrow and light to represent the quirky side of our company.
 
-    The secondary typeface should be used only for headings.
+    The secondary typeface should be used only for headings and buttons.
 colors:
   primary: |
     The primary colour represents the comedic side of our company. It is meant to contrast the rather negative subject manner of our company.
