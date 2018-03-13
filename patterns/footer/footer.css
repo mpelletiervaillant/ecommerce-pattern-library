@@ -1,0 +1,11 @@
+footer {
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.copyright {
+  background-color: var(--color-light-background);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  border-top: 1px solid var(--color-border);
+}

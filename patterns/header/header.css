@@ -1,0 +1,181 @@
+header {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.border-btm {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.nav-label {
+  width: 2rem;
+  height: 1.5rem;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.nav-label:focus {
+  background-color: transparent;
+  border-color: none;
+}
+
+.nav-label:hover {
+  background-color: transparent;
+}
+
+.line {
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  background-color: var(--color-primary);
+  border-radius: 20px;
+  transition: all .2s ease-in-out;
+  left: 0;
+}
+
+.top {
+  top: 0;
+}
+
+.middle {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.nav-label-open .top {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.nav-label-open .bottom {
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%) rotate(-45deg);
+}
+
+.nav-label-open .middle {
+  transform: rotate(45deg);
+  left: 50%;
+  opacity: 0;
+}
+
+.menu {
+  left: -100vh;
+  top: 3.29875rem;
+  transition: left .275s ease-in-out;
+  width: 100%;
+  height: calc(100vh - 3.29875rem);
+  position: absolute;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.test {
+  bottom: 0;
+  width: 100%;
+}
+
+.menu-active {
+  left: 0;
+}
+
+.logo {
+  width: 150px;
+}
+
+.main-nav li a {
+  display: block;
+  font-size: 2rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+nav li a:hover {
+  color: var(--color-primary);
+}
+
+.menu a:hover {
+  color: var(--color-primary);
+}
+
+.logo-big {
+  display: none;
+}
+
+.sm-icon {
+  fill: var(--color-primary);
+  transition: fill .35s ease;
+}
+
+.sm-icon:hover {
+  fill: var(--color-primary);
+}
+
+.shopping-bag {
+  display: none;
+}
+
+.bag-icon:hover {
+  fill: var(--color-primary);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .menu {
+    left: auto;
+    top: auto;
+    height: auto;
+    position: static;
+    background-color: transparent;
+    width: 100%;
+    border-bottom: none;
+    text-align: center;
+    border-top: 1px solid var(--color-border);
+    padding: .75rem;
+  }
+
+  .logo-big {
+    display: inline-block;
+    max-width: 500px;
+  }
+
+  .sm-header,
+  .slogan,
+  .nav-label,
+  .logo {
+    display: none;
+  }
+
+  .shopping-bag {
+    display: inline-block;
+    font-family: var(--font-secondary);
+    font-weight: 300;
+  }
+
+  .shipping {
+    font-family: var(--font-secondary);
+    font-weight: 300;
+  }
+
+  .nav-list {
+    text-align: center;
+  }
+
+  .main-nav li {
+    display: inline-block;
+  }
+
+  .main-nav li a {
+    display: inline-block;
+    font-size: 1rem;
+    border: none;
+    margin: 0;
+  }
+
+  .logo-header {
+    text-align: center;
+  }
+}

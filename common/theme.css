@@ -46,9 +46,10 @@ h6 {
 a {
   color: var(--color-secondary);
   text-decoration: none;
-  font-weight: bold;
-
-  border-bottom: .1em solid var(--color-primary);
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  font-weight: 300;
+  transition: color .125s ease-in-out;
 }
 
 a:hover {

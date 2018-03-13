@@ -25,12 +25,8 @@
   color: #fff;
 }
 
-.item-card {
-  transition: all .25s ease-in-out;
-}
-
 .item-card:hover {
-  transform: scale(1.025);
+  border-color: var(--color-primary);
 }
 
 .shop-card {
@@ -39,4 +35,8 @@
 
 .shop-card:hover {
   transform: scale(1.06);
+}
+
+.sale-card:hover {
+  border-color: var(--color-primary);
 }
