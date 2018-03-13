@@ -1469,6 +1469,10 @@
         </ul>
   </div>
 
+      <div class="pattern-desc milli island" style="">
+        <div class="max-length"><p>The checkout is an overview of the items that are in the user&#39;s cart.</p>
+</div>
+      </div>
 
   
 
@@ -1501,7 +1505,47 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="checkout-checkout-code-sample-copy-chunk">
+              <code><pre id="checkout-checkout-code-sample-copy-chunk">&lt;div class="island"&gt;
+  &lt;div class="table-mobile island text-center">
+    &lt;img class="icon i-128" src="../../images/always-print.jpg" alt="">
+    &lt;p class="push-0 exa pad-t-1-2">You&apos;re Rude Print&lt;/p>
+    &lt;p>11&apos; x 17&apos; Art Print&lt;/p>
+    &lt;dl class="list-group">
+      &lt;dt class="tera">Price&lt;/dt>
+      &lt;dd class="push-1-2">20.00&lt;/dd>
+      &lt;dt class="tera">Quantity&lt;/dt>
+      &lt;dd class="push-1-2">1&lt;/dd>
+      &lt;dt class="tera">Subtotal&lt;/dt>
+      &lt;dd class="push-1-2">20.00&lt;/dd>
+      &lt;dt class="tera">Remove&lt;/dt>
+      &lt;dd class="remove push-0">X&lt;/dd>
+    &lt;/dl>
+  &lt;/div>
+&lt;/div>
+&lt;div class="gutter table-desktop">
+  &lt;table class="wrapper">
+    &lt;thead>
+      &lt;th scope="col" colspan="3" class="push">Product&lt;/th>
+      &lt;th scope="col" class="text-center">Price&lt;/th>
+      &lt;th scope="col" class="text-center">Quantity&lt;/th>
+      &lt;th scope="col" class="text-center">Subtotal&lt;/th>
+      &lt;th scope="col" class="text-center">Remove&lt;/th>
+      &lt;thead>
+        &lt;tbody>
+          &lt;tr>
+            &lt;td colspan="3">&lt;img class="icon i-64" src="../../images/always-print.jpg">
+              &lt;p class="ib mega push-0 gutter-1-2 vertical-align line-height-8">You&apos;re Rude Print&lt;br>&lt;span class="push-0 micro ib">11&apos; x 17&apos; Art Print&lt;/span>&lt;/p>
+            &lt;/td>
+            &lt;td class="text-center">$39.99&lt;/td>
+            &lt;td class="text-center">1&lt;/td>
+            &lt;td class="text-center">$39.99&lt;/td>
+            &lt;td class="text-center remove">&lt;a href="#">X&lt;/a>&lt;/td>
+          &lt;/tr>
+        &lt;/tbody>
+      &lt;/thead>
+    &lt;/thead>
+  &lt;/table>
+&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -2542,21 +2586,21 @@
     <h2 class="pattern-name exa push-1-4" style="color: #ffc400; font-family: &quot;Oswald&quot;, sans-serif;">Images</h2>
         <ul class="list-group-inline gutter absolute pin-cr">
             <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="images-product-images-code-sample">
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="images-carousel-code-sample">
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-code"></use></svg>
                 </i>
               </button>
             </li>
             <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="images/product-images" hidden>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="images/carousel" hidden>
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
             </li>
             <li>
-              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/images/product-images.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/images/carousel.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-pop-out"></use></svg>
                 </i>
@@ -2565,20 +2609,20 @@
         </ul>
   </div>
 
-    <div class="pattern-desc milli island" style="">
-      <div class="max-length"><p>-The Product Images array is solely used on the Product Details page to showcase the product being sold. All the images must offer a different perspective of the item, and the best one should be the largest, first image viewed by the user.</p>
+      <div class="pattern-desc milli island" style="">
+        <div class="max-length"><p>The Carousel is designed to stand next to the product details. Users can toggle through different views of the product.</p>
 </div>
-    </div>
+      </div>
 
   
 
-    <div class="pattern-details " id="images--product-images" style="">
+    <div class="pattern-details " id="images--carousel" style="">
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
-          <div class="resizeable-pattern relative" style="">
+          <div class="resizeable-pattern relative" style="width:500px">
             <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="patterns/images/product-images.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+            <iframe data-src="patterns/images/carousel.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
               <div class="resizeable-pattern-length">
                 <div class="resize-handle resize-handle-left" style="">
                   <i class="icon i-18">
@@ -2594,42 +2638,40 @@
           </div>
         </div>
 
-          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="images-product-images-code-sample" tabindex="-1">
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="images-carousel-code-sample" tabindex="-1">
             <div class="pattern-code relative milli island-1-2" style="">
-              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#images-product-images-code-sample-copy-chunk" hidden>
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#images-carousel-code-sample-copy-chunk" hidden>
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="images-product-images-code-sample-copy-chunk">&lt;div class="grid"&gt;
-  &lt;div class="unit xs-1 island-1-4">
-    &lt;div class="embed embed-1by1">
-      &lt;img class="embed-item" src="http://via.placeholder.com/400x400" alt="">
-    &lt;/div>
+              <code><pre id="images-carousel-code-sample-copy-chunk">&lt;main class="gutter pad-b pad-t"&gt;
+  &lt;ul class="embed embed-1by1 list-group carousel relative">
+    &lt;li class="embed-item image image-active" id="image-1">
+      &lt;img class="img-flex" src="../../images/always-print.jpg" alt="">
+    &lt;/li>
+
+    &lt;li class="embed-item image" id="image-2">
+      &lt;img class="img-flex" src="../../images/mug.jpg" alt="">
+    &lt;/li>
+
+    &lt;li class="embed-item image" id="image-3">
+      &lt;img class="img-flex" src="../../images/always-print.jpg" alt="">
+    &lt;/li>
+  &lt;/ul>
+
+  &lt;div class="text-center">
+    &lt;a class="button btn-active" href="#image-1">
+      &lt;button class="carousel-btn">&lt;/button>
+    &lt;/a>
+    &lt;a class="button" href="#image-2">
+      &lt;button class="carousel-btn">&lt;/button>
+    &lt;/a>
+    &lt;a class="button" href="#image-3">
+      &lt;button class="carousel-btn">&lt;/button>
+    &lt;/a>
   &lt;/div>
-
-  &lt;div class="unit xs-1">
-    &lt;div class="grid">
-      &lt;div class="unit xs-1-3">
-        &lt;div class="embed embed-1by1">
-          &lt;img class="embed-item island-1-4" src="http://via.placeholder.com/500x500" alt="">
-        &lt;/div>
-      &lt;/div>
-
-      &lt;div class="unit xs-1-3">
-        &lt;div class="embed embed-1by1">
-          &lt;img class="embed-item island-1-4" src="http://via.placeholder.com/500x500" alt="">
-        &lt;/div>
-      &lt;/div>
-
-      &lt;div class="unit xs-1-3">
-        &lt;div class="embed embed-1by1">
-          &lt;img class="embed-item island-1-4" src="http://via.placeholder.com/500x500" alt="">
-        &lt;/div>
-      &lt;/div>
-    &lt;/div>
-  &lt;/div>
-&lt;/div>
+&lt;/main>
 </pre></code>
             </div>
           </div>

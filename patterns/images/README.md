@@ -1,1 +1,6 @@
--The Product Images array is solely used on the Product Details page to showcase the product being sold. All the images must offer a different perspective of the item, and the best one should be the largest, first image viewed by the user.
+---
+carousel:
+  width: 500
+  desc: |
+    The Carousel is designed to stand next to the product details. Users can toggle through different views of the product.
+---

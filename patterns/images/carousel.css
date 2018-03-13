@@ -1,0 +1,30 @@
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: .5em;
+  border-radius: 50%;
+  border-color: var(--color-light-background);
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+}
+
+.image {
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
+
+.image-active {
+  display: block;
+  opacity: 1;
+}
+
+.btn-active .carousel-btn {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}

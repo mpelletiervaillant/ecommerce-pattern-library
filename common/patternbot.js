@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library
- * @version 1520957633077
+ * @version 1520962101407
  */
-const patternManifest_1520957633077 = {
+const patternManifest_1520962101406 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -723,11 +723,26 @@ const patternManifest_1520957633077 = {
           "name": "checkout",
           "namePretty": "Checkout",
           "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/patterns/checkout/checkout.html",
-          "localPath": "patterns/checkout/checkout.html"
+          "localPath": "patterns/checkout/checkout.html",
+          "readme": {}
         }
       ],
-      "md": [],
-      "css": []
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/patterns/checkout/README.md",
+          "localPath": "patterns/checkout/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "checkout",
+          "namePretty": "Checkout",
+          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/patterns/checkout/checkout.css",
+          "localPath": "patterns/checkout/checkout.css"
+        }
+      ]
     },
     {
       "name": "footer",
@@ -881,10 +896,13 @@ const patternManifest_1520957633077 = {
       "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/patterns/images",
       "html": [
         {
-          "name": "product-images",
-          "namePretty": "Product images",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/patterns/images/product-images.html",
-          "localPath": "patterns/images/product-images.html"
+          "name": "carousel",
+          "namePretty": "Carousel",
+          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/patterns/images/carousel.html",
+          "localPath": "patterns/images/carousel.html",
+          "readme": {
+            "width": 500
+          }
         }
       ],
       "md": [
@@ -897,10 +915,10 @@ const patternManifest_1520957633077 = {
       ],
       "css": [
         {
-          "name": "images",
-          "namePretty": "Images",
-          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/patterns/images/images.css",
-          "localPath": "patterns/images/images.css"
+          "name": "carousel",
+          "namePretty": "Carousel",
+          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/patterns/images/carousel.css",
+          "localPath": "patterns/images/carousel.css"
         }
       ]
     },
@@ -1001,5 +1019,5 @@ const patternManifest_1520957633077 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520957633077);
+patternBotIncludes(patternManifest_1520962101406);
 }());
