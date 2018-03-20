@@ -1,0 +1,22 @@
+.yellow-border {
+  border-right: 2em solid var(--color-primary);
+}
+
+dt {
+  width: 25%;
+  display: inline-block;
+  text-align: right;
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--color-border);
+  margin-right: .5em;
+}
+
+dd {
+  width: 65%;
+  display: inline-block;
+  border-bottom: 1px solid var(--color-border);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+}
