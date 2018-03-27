@@ -8,7 +8,7 @@
 }
 
 .main-banner {
-  background: url("http://via.placeholder.com/1440x500") center / cover no-repeat;
+  background: var(--color-primary) center / cover no-repeat;
   height: 500px;
 }
 
@@ -30,6 +30,18 @@
 }
 
 .product-banner {
-  background: url("http://via.placeholder.com/1440x500") center / cover no-repeat;
+  background: var(--color-primary) center / cover no-repeat;
   height: 300px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--color-border);
+}
+
+@media only screen and (min-width: 90em) {
+
+  .main-banner {
+    height: 500px;
+  }
+
 }

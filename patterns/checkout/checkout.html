@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Checkout</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="../../common/modules.css" rel="stylesheet">
   <link href="../../common/grid.css" rel="stylesheet">
@@ -32,16 +32,22 @@
   </div>
   <div class="gutter table-desktop">
     <table class="wrapper">
+      <caption class="visually-hidden">Product Costs</caption>
       <thead>
-        <th scope="col" colspan="3" class="push">Product</th>
-        <th scope="col" class="text-center">Price</th>
-        <th scope="col" class="text-center">Quantity</th>
-        <th scope="col" class="text-center">Subtotal</th>
-        <th scope="col" class="text-center">Remove</th>
-      <thead>
+        <tr>
+          <th scope="col" class="big-cell push">Product</th>
+          <th scope="col" class="text-center">Price</th>
+          <th scope="col" class="text-center">Quantity</th>
+          <th scope="col" class="text-center">Subtotal</th>
+          <th scope="col" class="text-center">Remove</th>
+        </tr>
+      </thead>
       <tbody>
         <tr>
-          <td colspan="3"><img class="icon i-64" src="../../images/always-print.jpg"><p class="ib mega push-0 gutter-1-2 vertical-align line-height-8">You're Rude Print<br><span class="push-0 micro ib">11' x 17' Art Print</span></p></td>
+          <th scope="row">
+            <img class="icon i-64" src="../../images/always-print.jpg" alt="Always remember that something great will probably never happen">
+            <p class="ib mega push-0 gutter-1-2 vertical-align line-height-8">You're Rude Print<br><span class="push-0 micro ib">11' x 17' Art Print</span></p>
+          </th>
           <td class="text-center">$39.99</td>
           <td class="text-center">1</td>
           <td class="text-center">$39.99</td>

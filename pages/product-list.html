@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Product List</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+  <script type="application/json" data-pattern="header/header"></script>
+  <script type="application/json" data-pattern="banners/product-banner">
+    {
+      "h2": "Prints"
+    }
+  </script>
+  <div class="pad-t pad-b">
+    <script type="application/json" data-pattern="navigations/filter"></script>
+  </div>
+  <div class="wrapper pad-t-2 pad-b gutter-1-2">
+    <script type="application/json" data-pattern="navigations/breadcrumbs">
+      {
+        ".breadcrumb-4": "",
+        "li:nth-child(4)[class]": "",
+        "li:nth-child(3)[class]": "active"
+      }
+    </script>
+  </div>
+  <section class="wrapper pad-b-2">
+    <div class="grid island-1-4">
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-4 island-1-4">
+        <script type="application/json" data-pattern="cards/item-card"></script>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-4 island-1-4">
+        <script type="application/json" data-pattern="cards/item-card">
+          {
+            "img[src]": "../images/donut-mockup.jpg",
+            ".item-card-title": "Donut",
+            ".item-card-style": "Digital",
+            ".item-card-price": "$20"
+          }
+        </script>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-4 island-1-4">
+        <script type="application/json" data-pattern="cards/item-card">
+        {
+          "img[src]": "../images/expensive-mockup.jpg",
+          ".item-card-title": "Expensive",
+          ".item-card-style": "Letterpressed",
+          ".item-card-price": "$25"
+        }
+        </script>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-4 island-1-4">
+        <script type="application/json" data-pattern="cards/item-card">
+        {
+          "img[src]": "../images/ice-cream-mockup.jpg",
+          ".item-card-title": "Ice Cream",
+          ".item-card-style": "Digital",
+          ".item-card-price": "$20"
+        }
+        </script>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-4 island-1-4">
+        <script type="application/json" data-pattern="cards/item-card">
+        {
+          "img[src]": "../images/switch-mockup.jpg",
+          ".item-card-title": "Lovebirds",
+          ".item-card-style": "Digital",
+          ".item-card-price": "$25"
+        }
+        </script>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-4 island-1-4">
+        <script type="application/json" data-pattern="cards/item-card">
+        {
+          "img[src]": "../images/yeah-mockup.jpg",
+          ".item-card-title": "Yeah",
+          ".item-card-style": "Screenprinted",
+          ".item-card-price": "$30"
+        }
+        </script>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-4 island-1-4">
+        <script type="application/json" data-pattern="cards/item-card">
+        {
+          "img[src]": "../images/ps4-mockup.jpg",
+          ".item-card-title": "PS4 Essentials",
+          ".item-card-style": "Digital Print",
+          ".item-card-price": "$20"
+        }
+        </script>
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-4 island-1-4">
+        <script type="application/json" data-pattern="cards/item-card">
+        {
+          "img[src]": "../images/switch-console-mockup.jpg",
+          ".item-card-title": "Switch Essentials",
+          ".item-card-style": "Digital Print",
+          ".item-card-price": "$20"
+        }
+        </script>
+      </div>
+
+    </div>
+  </section>
+
+    <script type="application/json" data-pattern="footer/footer"></script>
+
+</body>
+</html>

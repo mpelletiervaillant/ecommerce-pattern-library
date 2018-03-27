@@ -62,8 +62,8 @@ select:focus {
 }
 
 [type="radio"]:checked + label::before {
-    background-color: var(--color-primary);
-    border-color: var(--color-primary-light);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary-light);
 }
 
 [type="checkbox"] + label::before {
@@ -71,6 +71,6 @@ select:focus {
 }
 
 [type="checkbox"]:checked + label::before {
-    background-color: var(--color-primary);
-    border-color: var(--color-primary-light);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary-light);
 }

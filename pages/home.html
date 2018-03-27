@@ -9,5 +9,111 @@
 <body>
   <script type="application/json" data-pattern="header/header"></script>
   <script type="application/json" data-pattern="banners/call-to-action"></script>
+  <main>
+
+    <section class="pad-t-2 pad-b-2 border-bottom">
+      <div class="grid wrapper pad-t-2 pad-b-2">
+        <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 gutter-1-2">
+          <script type="application/json" data-pattern="cards/shop-card"></script>
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 gutter-1-2">
+          <script type="application/json" data-pattern="cards/shop-card">
+          {
+            "img[src]": "../images/card-mockup.jpg",
+            "h2": "Cards"
+          }
+          </script>
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 gutter-1-2">
+          <script type="application/json" data-pattern="cards/shop-card">
+            {
+              "img[src]": "../images/always-mockup.jpg",
+              "h2": "Prints"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 gutter-1-2">
+          <script type="application/json" data-pattern="cards/shop-card">
+            {
+              "img[src]": "../../images/simple-frame.jpg",
+              "h2": "Office"
+            }
+          </script>
+        </div>
+      </div>
+    </section>
+
+    <section class="pad-t-2 pad-b-2">
+      <h2 class="text-center nina pad-t-2">Our Values</h2>
+      <div class="grid grid-stretch wrapper pad-b-2">
+        <div class="unit xs-1 s-1 m-1 l-1-3 island-1-2">
+          <script type="application/json" data-pattern="cards/icon-card"></script>
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1-3 island-1-2">
+          <script type="application/json" data-pattern="cards/icon-card">
+            {
+              "use[xlink:href]": "../images/icons.svg#icon-leaf",
+              "h3": "Environment",
+              "p": "We use recycled materials in every aspect of our business to help our environment"
+            }
+          </script>
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1-3 island-1-2">
+          <script type="application/json" data-pattern="cards/icon-card">
+          {
+            "use[xlink:href]": "../images/icons.svg#icon-checkmark",
+            "h3": "Quality",
+            "p": "We take pride in creating high quality products. We use the best materials out there."
+          }
+          </script>
+        </div>
+      </div>
+    </section>
+
+    <script type="application/json" data-pattern="banners/info-banner"></script>
+
+    <section class="pad-t-2 pad-b-2">
+      <h2 class="text-center nina pad-t-2">Things on sale</h2>
+      <div class="grid grid-stretch wrapper pad-b-2">
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 gutter-1-2">
+          <script type="application/json" data-pattern="cards/sale-card"></script>
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 gutter-1-2">
+          <script type="application/json" data-pattern="cards/sale-card">
+            {
+              "img[src]": "../images/expensive-mockup.jpg",
+              "p.sale-title": "Expensive",
+              "p.sale-style": "Digital Print",
+              "p.sale-price": "$20",
+              "p.sale-card-text": "Don't lie to yourself... Money does buy happiness!"
+            }
+          </script>
+        </div>
+        <div class="unit xs-0 s-0 m-0 l-1-3 gutter-1-2">
+          <script type="application/json" data-pattern="cards/sale-card">
+          {
+            "img[src]": "../images/donut-mockup.jpg",
+            "p.sale-title": "Donut",
+            "p.sale-style": "Digital Print",
+            "p.sale-price": "$15",
+            "p.sale-card-text": "Donuts are sweet, delicious and full of surprises, 'nough said."
+          }
+          </script>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="">
+      <script type="application/json" data-pattern="sections/basic-section"></script>
+    </section>
+
+    <script type="application/json" data-pattern="footer/footer">
+      {
+        ".border-top[class]": "border-bottom text-center pad-t-2"
+      }
+    </script>
+
+  </main>
 </body>
 </html>

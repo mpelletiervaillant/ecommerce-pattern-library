@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library
- * @version 1521560122636
+ * @version 1522171351406
  */
-const patternManifest_1521560122636 = {
+const patternManifest_1522171351406 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -627,6 +627,11 @@ const patternManifest_1521560122636 = {
         "name": "home.html",
         "namePretty": "Home",
         "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/pages/home.html"
+      },
+      {
+        "name": "product-list.html",
+        "namePretty": "Product list",
+        "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/pages/product-list.html"
       }
     ]
   },
@@ -1071,6 +1076,13 @@ const patternManifest_1521560122636 = {
           "readme": {
             "width": 450
           }
+        },
+        {
+          "name": "introduction",
+          "namePretty": "Introduction",
+          "filename": "introduction",
+          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/patterns/sections/introduction.html",
+          "localPath": "patterns/sections/introduction.html"
         }
       ],
       "md": [
@@ -1148,5 +1160,5 @@ const patternManifest_1521560122636 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521560122636);
+patternBotIncludes(patternManifest_1522171351406);
 }());
