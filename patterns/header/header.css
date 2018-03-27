@@ -16,7 +16,7 @@ header {
 
 .nav-label:focus {
   background-color: transparent;
-  border-color: none;
+  border-color: transparent;
 }
 
 .nav-label:hover {
@@ -66,10 +66,10 @@ header {
 
 .menu {
   left: -100vh;
-  top: 3.29875rem;
+  top: 3.2988rem;
   transition: left .275s ease-in-out;
   width: 100%;
-  height: calc(100vh - 3.29875rem);
+  height: calc(100vh - 3.2988rem);
   position: absolute;
   border-bottom: 1px solid var(--color-border);
 }
@@ -125,8 +125,6 @@ nav li a:hover {
 @media only screen and (min-width: 38em) {
 
   .menu {
-    left: auto;
-    top: auto;
     height: auto;
     position: static;
     background-color: transparent;
@@ -178,4 +176,5 @@ nav li a:hover {
   .logo-header {
     text-align: center;
   }
+
 }
