@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library
- * @version 7af05251e0d1bb10c6d6c0fc6eb7afd6579af3d5
+ * @version b62438a4cce2083d2ed9dbf68e33029c872c24af
  */
-const patternManifest_7af05251e0d1bb10c6d6c0fc6eb7afd6579af3d5 = {
+const patternManifest_b62438a4cce2083d2ed9dbf68e33029c872c24af = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -680,14 +680,19 @@ const patternManifest_7af05251e0d1bb10c6d6c0fc6eb7afd6579af3d5 = {
     ],
     "pages": [
       {
+        "name": "checkout.html",
+        "namePretty": "Checkout",
+        "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/pages/checkout.html"
+      },
+      {
         "name": "home.html",
         "namePretty": "Home",
         "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/pages/home.html"
       },
       {
-        "name": "product-list.html",
-        "namePretty": "Product list",
-        "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/pages/product-list.html"
+        "name": "products.html",
+        "namePretty": "Products",
+        "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/pages/products.html"
       }
     ],
     "js": []
@@ -940,12 +945,26 @@ const patternManifest_7af05251e0d1bb10c6d6c0fc6eb7afd6579af3d5 = {
           "readme": {}
         },
         {
+          "name": "date",
+          "namePretty": "Date",
+          "filename": "date",
+          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/patterns/forms/date.html",
+          "localPath": "patterns/forms/date.html"
+        },
+        {
           "name": "email",
           "namePretty": "Email",
           "filename": "email",
           "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/patterns/forms/email.html",
           "localPath": "patterns/forms/email.html",
           "readme": {}
+        },
+        {
+          "name": "form-error-message",
+          "namePretty": "Form error message",
+          "filename": "form-error-message",
+          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/patterns/forms/form-error-message.html",
+          "localPath": "patterns/forms/form-error-message.html"
         },
         {
           "name": "number",
@@ -1134,7 +1153,15 @@ const patternManifest_7af05251e0d1bb10c6d6c0fc6eb7afd6579af3d5 = {
           "localPath": "patterns/navigations/navigations.css"
         }
       ],
-      "js": []
+      "js": [
+        {
+          "name": "main",
+          "namePretty": "Main",
+          "filename": "main",
+          "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/patterns/navigations/main.js",
+          "localPath": "patterns/navigations/main.js"
+        }
+      ]
     },
     {
       "name": "sections",
@@ -1244,5 +1271,5 @@ const patternManifest_7af05251e0d1bb10c6d6c0fc6eb7afd6579af3d5 = {
   }
 };
 
-patternBotIncludes(patternManifest_7af05251e0d1bb10c6d6c0fc6eb7afd6579af3d5);
+patternBotIncludes(patternManifest_b62438a4cce2083d2ed9dbf68e33029c872c24af);
 }());

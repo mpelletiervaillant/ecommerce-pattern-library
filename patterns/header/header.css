@@ -72,7 +72,7 @@ nav {
 
 .menu {
   left: -100vh;
-  top: 3.2988rem;
+  top: 3.1rem;
   transition: left .275s ease-in-out;
   width: 100%;
   height: calc(100vh - 3.2988rem);

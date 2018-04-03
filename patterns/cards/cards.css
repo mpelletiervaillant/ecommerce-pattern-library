@@ -54,6 +54,30 @@
   border-color: var(--color-primary);
 }
 
+.category-all {
+  display: block;
+}
+
+.category-hidden {
+  display: hidden;
+}
+
+.category-print {
+  display: block;
+}
+
+.category-greeting-card {
+  display: block;
+}
+
+.category-stationery {
+  display: block;
+}
+
+.category-apparel {
+  display: block;
+}
+
 @media only screen and (min-width: 60em) {
 
   .icon-card {

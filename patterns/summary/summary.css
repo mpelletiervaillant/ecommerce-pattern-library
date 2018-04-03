@@ -2,7 +2,11 @@
   border-right: 2em solid var(--color-primary);
 }
 
-dt {
+.summary {
+  max-width: 400px;
+}
+
+.summary-list dt {
   width: 25%;
   display: inline-block;
   text-align: right;
@@ -13,7 +17,7 @@ dt {
   margin-right: .5em;
 }
 
-dd {
+.summary-list dd {
   width: 65%;
   display: inline-block;
   border-bottom: 1px solid var(--color-border);

@@ -21,6 +21,7 @@ html {
 h1 {
   font-family: var(--font-secondary);
   font-weight: 300;
+  text-transform: uppercase;
 }
 
 h2 {

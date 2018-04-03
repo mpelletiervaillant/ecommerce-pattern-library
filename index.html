@@ -262,6 +262,16 @@
         <nav class="nav mega">
           <ul class="list-group">
               <li>
+                <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/checkout.html" target="_blank">
+                  <div class="relative">
+                    <span>Checkout</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-pop-out" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li>
                 <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/home.html" target="_blank">
                   <div class="relative">
                     <span>Home</span>
@@ -272,9 +282,9 @@
                 </a>
               </li>
               <li>
-                <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/product-list.html" target="_blank">
+                <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/products.html" target="_blank">
                   <div class="relative">
-                    <span>Product list</span>
+                    <span>Products</span>
                     <i class="icon i-18 absolute pin-cr">
                       <svg><use xlink:href="#icon-pop-out" /></svg>
                     </i>
@@ -1548,48 +1558,79 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="checkout-checkout-code-sample-copy-chunk">&lt;div class="island"&gt;
-  &lt;div class="table-mobile island text-center">
-    &lt;img class="icon i-128" src="../../images/always-print.jpg" alt="">
-    &lt;p class="push-0 exa pad-t-1-2">You&apos;re Rude Print&lt;/p>
-    &lt;p>11&apos; x 17&apos; Art Print&lt;/p>
-    &lt;dl class="list-group">
-      &lt;dt class="tera">Price&lt;/dt>
-      &lt;dd class="push-1-2">20.00&lt;/dd>
-      &lt;dt class="tera">Quantity&lt;/dt>
-      &lt;dd class="push-1-2">1&lt;/dd>
-      &lt;dt class="tera">Subtotal&lt;/dt>
-      &lt;dd class="push-1-2">20.00&lt;/dd>
-      &lt;dt class="tera">Remove&lt;/dt>
-      &lt;dd class="remove push-0">X&lt;/dd>
-    &lt;/dl>
+              <code><pre id="checkout-checkout-code-sample-copy-chunk">&lt;div class="gutter"&gt;
+  &lt;div class="table-mobile-group grid text-center">
+    &lt;div class="unit xs-1 s-1-2 m-1 island-1-2">
+      &lt;div class="table-mobile">
+        &lt;img class="icon i-128" src="../../images/always-mockup.jpg" alt="">
+        &lt;p class="push-0 exa pad-t-1-2">Always Remember&lt;/p>
+        &lt;p>11&apos; x 17&apos; Art Print&lt;/p>
+        &lt;dl class="list-group checkout">
+          &lt;dt class="tera">Price&lt;/dt>
+          &lt;dd class="push-1-2">$39.99&lt;/dd>
+          &lt;dt class="tera">Quantity&lt;/dt>
+          &lt;dd class="push-1-2">1&lt;/dd>
+          &lt;dt class="tera">Subtotal&lt;/dt>
+          &lt;dd class="push-1-2">$39.99&lt;/dd>
+          &lt;dt class="tera">Remove&lt;/dt>
+          &lt;dd class="remove push-0">X&lt;/dd>
+        &lt;/dl>
+      &lt;/div>
+    &lt;/div>
+    &lt;div class="unit xs-1 s-1-2 m-1-2 island-1-2">
+      &lt;div class="table-mobile">
+        &lt;img class="icon i-128" src="../../images/donut-mockup.jpg" alt="">
+        &lt;p class="push-0 exa pad-t-1-2">Donut&lt;/p>
+        &lt;p>11&apos; x 17&apos; Art Print&lt;/p>
+        &lt;dl class="list-group checkout">
+          &lt;dt class="tera">Price&lt;/dt>
+          &lt;dd class="push-1-2">$20.00&lt;/dd>
+          &lt;dt class="tera">Quantity&lt;/dt>
+          &lt;dd class="push-1-2">1&lt;/dd>
+          &lt;dt class="tera">Subtotal&lt;/dt>
+          &lt;dd class="push-1-2">$20.00&lt;/dd>
+          &lt;dt class="tera">Remove&lt;/dt>
+          &lt;dd class="remove push-0">X&lt;/dd>
+        &lt;/dl>
+      &lt;/div>
+    &lt;/div>
   &lt;/div>
-&lt;/div>
-&lt;div class="gutter table-desktop">
-  &lt;table class="wrapper">
-    &lt;caption class="visually-hidden">Product Costs&lt;/caption>
-    &lt;thead>
-      &lt;tr>
-        &lt;th scope="col" class="big-cell push">Product&lt;/th>
-        &lt;th scope="col" class="text-center">Price&lt;/th>
-        &lt;th scope="col" class="text-center">Quantity&lt;/th>
-        &lt;th scope="col" class="text-center">Subtotal&lt;/th>
-        &lt;th scope="col" class="text-center">Remove&lt;/th>
-      &lt;/tr>
-    &lt;/thead>
-    &lt;tbody>
-      &lt;tr>
-        &lt;th scope="row">
-          &lt;img class="icon i-64" src="../../images/always-print.jpg" alt="Always remember that something great will probably never happen">
-          &lt;p class="ib mega push-0 gutter-1-2 vertical-align line-height-8">You&apos;re Rude Print&lt;br>&lt;span class="push-0 micro ib">11&apos; x 17&apos; Art Print&lt;/span>&lt;/p>
-        &lt;/th>
-        &lt;td class="text-center">$39.99&lt;/td>
-        &lt;td class="text-center">1&lt;/td>
-        &lt;td class="text-center">$39.99&lt;/td>
-        &lt;td class="text-center remove">&lt;a href="#">X&lt;/a>&lt;/td>
-      &lt;/tr>
-    &lt;/tbody>
-  &lt;/table>
+  &lt;div class="table-desktop">
+    &lt;table class="wrapper">
+      &lt;caption class="visually-hidden">Product Costs&lt;/caption>
+      &lt;thead>
+        &lt;tr>
+          &lt;th scope="col" class="big-cell push">Product&lt;/th>
+          &lt;th scope="col" class="text-center">Price&lt;/th>
+          &lt;th scope="col" class="text-center">Quantity&lt;/th>
+          &lt;th scope="col" class="text-center">Subtotal&lt;/th>
+          &lt;th scope="col" class="text-center">Remove&lt;/th>
+        &lt;/tr>
+      &lt;/thead>
+      &lt;tbody>
+        &lt;tr>
+          &lt;th scope="row">
+            &lt;img class="icon i-64" src="../../images/always-mockup.jpg" alt="Always remember that something great will probably never happen">
+            &lt;p class="ib mega push-0 gutter-1-2 vertical-align line-height-8">Always Remember&lt;br>&lt;span class="push-0 micro ib">11&apos; x 17&apos; Art Print&lt;/span>&lt;/p>
+          &lt;/th>
+          &lt;td class="text-center">$39.99&lt;/td>
+          &lt;td class="text-center">1&lt;/td>
+          &lt;td class="text-center">$39.99&lt;/td>
+          &lt;td class="text-center remove">&lt;a href="#">X&lt;/a>&lt;/td>
+        &lt;/tr>
+        &lt;tr>
+          &lt;th scope="row">
+            &lt;img class="icon i-64" src="../../images/donut-mockup.jpg" alt="Donut print">
+            &lt;p class="ib mega push-0 gutter-1-2 vertical-align line-height-8">Donut&lt;br>&lt;span class="push-0 micro ib">11&apos; x 17&apos; Art Print&lt;/span>&lt;/p>
+          &lt;/th>
+          &lt;td class="text-center">$20.00&lt;/td>
+          &lt;td class="text-center">1&lt;/td>
+          &lt;td class="text-center">$20.00&lt;/td>
+          &lt;td class="text-center remove">&lt;a href="#">X&lt;/a>&lt;/td>
+        &lt;/tr>
+      &lt;/tbody>
+    &lt;/table>
+  &lt;/div>
 &lt;/div>
 </pre></code>
             </div>
@@ -1720,7 +1761,9 @@
             <li><a href="#forms--auto-complete">Auto complete</a></li>
             <li><a href="#forms--basic-input">Basic input</a></li>
             <li><a href="#forms--checkbox">Checkbox</a></li>
+            <li><a href="#forms--date">Date</a></li>
             <li><a href="#forms--email">Email</a></li>
+            <li><a href="#forms--form-error-message">Form error message</a></li>
             <li><a href="#forms--number">Number</a></li>
             <li><a href="#forms--quantity">Quantity</a></li>
             <li><a href="#forms--radio">Radio</a></li>
@@ -1796,7 +1839,7 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-auto-complete-code-sample-copy-chunk">&lt;form class="max-length island" method="post" action="#" novalidate=""&gt;
+              <code><pre id="forms-auto-complete-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
   &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
     &lt;h3 class="push-0">
         &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
@@ -1804,7 +1847,7 @@
       &lt;/h3>
   &lt;/div>
 
-  &lt;label class="push-1-4" for="province">Province&lt;/label>
+  &lt;label for="province">Province&lt;/label>
   &lt;input id="province" list="province-list" required aria-describedby="province-error">
   &lt;p class="error-message milli island-1-4 push-0" id="province-error">
     &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
@@ -1890,23 +1933,14 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-basic-input-code-sample-copy-chunk">&lt;form class="max-length island" method="post" action="#" novalidate=""&gt;
-  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-    &lt;h3 class="push-0">
-        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-        &lt;span class="icon-label">There are items that require your attention&lt;/span>
-      &lt;/h3>
-  &lt;/div>
-
-  &lt;div class="push-1-2">
-    &lt;label for="name">Name&lt;/label>
-    &lt;input id="name" type="text" required aria-describedby="name-error">
-    &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please provide a name.&lt;/span>
-    &lt;/p>
-  &lt;/div>
-&lt;/form>
+              <code><pre id="forms-basic-input-code-sample-copy-chunk">&lt;div class="push-1-2"&gt;
+  &lt;label for="name">Name&lt;/label>
+  &lt;input id="name" type="text" required aria-describedby="name-error">
+  &lt;p class="error-message milli island-1-4 push-0" id="name-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Please provide a name.&lt;/span>
+  &lt;/p>
+&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -1971,30 +2005,78 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-checkbox-code-sample-copy-chunk">&lt;form class="max-length island" method="post" action="#" novalidate=""&gt;
-  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-    &lt;h3 class="push-0">
-        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-        &lt;span class="icon-label">There are items that require your attention&lt;/span>
-      &lt;/h3>
-  &lt;/div>
+              <code><pre id="forms-checkbox-code-sample-copy-chunk">&lt;div class="push-1-4"&gt;
+  &lt;input id="print" type="checkbox">
+  &lt;label for="print">Print&lt;/label>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--date" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Date</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-date-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/date" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/date.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
 
-  &lt;div class="push-1-4">
-    &lt;input id="print" type="checkbox">
-    &lt;label for="print">Print&lt;/label>
-  &lt;/div>
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/date.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
 
-  &lt;div class="push-1-4">
-    &lt;input id="card" type="checkbox">
-    &lt;label for="card">Greeting Cards&lt;/label>
-  &lt;/div>
-
-  &lt;div class="push-1-4">
-    &lt;input id="mug" type="checkbox">
-    &lt;label for="mug">Mugs&lt;/label>
-  &lt;/div>
-
-&lt;/form>
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-date-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-date-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-date-code-sample-copy-chunk">&lt;div class="push-1-2"&gt;
+  &lt;label for="name">Date&lt;/label>
+  &lt;input id="date" type="date" required aria-describedby="name-error">
+  &lt;p class="error-message milli island-1-4 push-0" id="name-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Please select a valid date.&lt;/span>
+  &lt;/p>
+&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -2059,23 +2141,80 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-email-code-sample-copy-chunk">&lt;form class="max-length island" method="post" action="#" novalidate=""&gt;
-  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-    &lt;h3 class="push-0">
-        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-        &lt;span class="icon-label">There are items that require your attention&lt;/span>
-      &lt;/h3>
-  &lt;/div>
+              <code><pre id="forms-email-code-sample-copy-chunk">&lt;div class="push-1-2"&gt;
+  &lt;label for="email">Email&lt;/label>
+  &lt;input id="email" type="email" placeholder="me@gmail.com" required aria-describedby="email-error">
+  &lt;p class="error-message milli island-1-4 push-0" id="email-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Please provide a properly formatted e-mail address&lt;/span>
+  &lt;/p>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--form-error-message" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Form error message</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-form-error-message-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/form-error-message" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/form-error-message.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
 
-  &lt;div class="push-1-2">
-    &lt;label for="email">Email&lt;/label>
-    &lt;input id="email" type="email" placeholder="me@gmail.com" required aria-describedby="email-error">
-    &lt;p class="error-message milli island-1-4 push-0" id="email-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please provide a properly formatted e-mail address&lt;/span>
-    &lt;/p>
-  &lt;/div>
-&lt;/form>
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/form-error-message.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-form-error-message-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-form-error-message-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-form-error-message-code-sample-copy-chunk">&lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive"&gt;
+  &lt;h3 class="push-0">
+      &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">There are items that require your attention&lt;/span>
+    &lt;/h3>
+&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -2550,8 +2689,8 @@
               <code><pre id="header-header-code-sample-copy-chunk">&lt;header&gt;
   &lt;div class="grid grid-middle">
     &lt;div class="unit xs-1-4 s-1-4 m-1-2 island-1-2">
-      &lt;a href="#">
-          &lt;span class="shopping-bag micro">Shopping Bag (0 items)&lt;/span>
+      &lt;a class="block" href="checkout.html">
+          &lt;span class="shopping-bag micro">Shopping Bag (2 items)&lt;/span>
           &lt;i class="icon i-24">
             &lt;svg class="bag-icon">&lt;use xlink:href="../../images/icons.svg#icon-bag"/>&lt;/svg>
           &lt;/i>
@@ -2561,9 +2700,9 @@
       &lt;p class="push-0 micro shipping">Free Shipping until March 14th, 2018&lt;/p>
     &lt;/div>
     &lt;div class="unit xs-1-2 m-1 logo-header island-1-2 text-center">
-      &lt;img class="logo" src="../../images/logo-crop.svg" alt="">
+      &lt;h1>&lt;a class="block" href="home.html">&lt;img class="logo" src="../../images/logo-crop.svg" alt="">&lt;/a>&lt;/h1>
       &lt;div class="logo-big text-center">
-        &lt;img class="img-flex" src="../../images/logo-crop.svg" alt="">
+        &lt;h1>&lt;a class="block" href="home.html">&lt;img class="img-flex" src="../../images/logo-crop.svg" alt="">&lt;/a>&lt;/h1>
       &lt;/div>
     &lt;/div>
     &lt;div class="unit xs-1-4 m-0 text-right island-1-2">
@@ -2577,7 +2716,7 @@
     &lt;nav class="unit m-1 menu text-center">
       &lt;ul class="main-nav list-group push-0 nav-list text-center">
         &lt;li>&lt;a class="gutter-1-2 pad-t-1-4 pad-b-1-4" href="home.html">Home&lt;/a>&lt;/li>
-        &lt;li>&lt;a class="gutter-1-2 pad-t-1-4 pad-b-1-4" href="#">Products&lt;/a>&lt;/li>
+        &lt;li>&lt;a class="gutter-1-2 pad-t-1-4 pad-b-1-4" href="products.html">Products&lt;/a>&lt;/li>
         &lt;li>&lt;a class="gutter-1-2 pad-t-1-4 pad-b-1-4" href="#">Sale&lt;/a>&lt;/li>
         &lt;li>&lt;a class="gutter-1-2 pad-t-1-4 pad-b-1-4" href="#">Contact&lt;/a>&lt;/li>
         &lt;li>&lt;a class="gutter-1-2 pad-t-1-4 pad-b-1-4" href="#">Help&lt;/a>&lt;/li>
@@ -2877,11 +3016,11 @@
                 </i>
               </button>
               <code><pre id="navigations-filter-code-sample-copy-chunk">&lt;div&gt;
-  &lt;ul class="filter list-group-inline text-center">
-    &lt;li>&lt;a class="gutter-1-2" id="current" href="#">Funny&lt;/a>&lt;/li>
-    &lt;li>&lt;a class="gutter-1-2" href="#">Birthday&lt;/a>&lt;/li>
-    &lt;li>&lt;a class="gutter-1-2" href="#">Everyday&lt;/a>&lt;/li>
-    &lt;li>&lt;a class="gutter-1-2" href="#">Rude&lt;/a>&lt;/li>
+  &lt;ul class="filter list-group-inline text-center push-0 pad-t-2">
+    &lt;li>&lt;a class="gutter-1-2 selected" href="#">Prints&lt;/a>&lt;/li>
+    &lt;li>&lt;a class="gutter-1-2" href="#">Greeting Cards&lt;/a>&lt;/li>
+    &lt;li>&lt;a class="gutter-1-2" href="#">Apparel&lt;/a>&lt;/li>
+    &lt;li>&lt;a class="gutter-1-2" href="#">Stationery&lt;/a>&lt;/li>
   &lt;/ul>
 &lt;/div>
 </pre></code>
@@ -3054,12 +3193,12 @@
   &lt;h3 class="exa">Description&lt;/h3>
   &lt;p>Tell your friends and family they suck with this beautiful letterpressed print. Perfect for any bathroom!&lt;/p>
   &lt;h3 class="exa">Details&lt;/h3>
-  &lt;dl>
+  &lt;dl class="details">
     &lt;dt>Size&lt;/dt>
     &lt;dd>Select Size&lt;/dd>
   &lt;/dl>
   &lt;h3 class="exa">Specifications&lt;/h3>
-  &lt;dl>
+  &lt;dl class="details">
     &lt;dt>Material&lt;/dt>
     &lt;dd>60 lbs bright white paper&lt;/dd>
     &lt;dt>Colours&lt;/dt>
@@ -3210,9 +3349,9 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="summary-summary-code-sample-copy-chunk">&lt;div class="unit xs-1"&gt;
-  &lt;h3 class="exa">Details&lt;/h3>
-  &lt;dl>
+              <code><pre id="summary-summary-code-sample-copy-chunk">&lt;div class="unit xs-1 summary"&gt;
+  &lt;h3 class="exa">Summary&lt;/h3>
+  &lt;dl class="summary-list">
     &lt;dt>Subtotal&lt;/dt>
     &lt;dd>$29.99&lt;/dd>
     &lt;dt>Tax&lt;/dt>

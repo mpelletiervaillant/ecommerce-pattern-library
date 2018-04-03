@@ -8,7 +8,7 @@
 }
 
 .main-banner {
-  background: transparent center / cover no-repeat;
+  background: var(--color-primary) center / cover no-repeat;
   height: 500px;
 }
 
