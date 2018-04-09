@@ -291,6 +291,16 @@
                   </div>
                 </a>
               </li>
+              <li>
+                <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/test.html" target="_blank">
+                  <div class="relative">
+                    <span>Test</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-pop-out" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
           </ul>
         </nav>
     </header>
@@ -1391,9 +1401,9 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="cards-sale-card-code-sample-copy-chunk">&lt;a href=""&gt;
-  &lt;div class="card-border content-fill">
-    &lt;div class="grid sale-card island-1-2">
+              <code><pre id="cards-sale-card-code-sample-copy-chunk">&lt;a class="island-1-2 ib sale-card" href=""&gt;
+  &lt;div class="card-border content-fill relative">
+    &lt;div class="grid island-1-2">
       &lt;div class="unit xs-1 s-1">
         &lt;div class="embed embed-1by1 push-1-2">
           &lt;img class="embed-item" src="../../images/always-mockup.jpg" alt="">
@@ -1408,6 +1418,11 @@
       &lt;/div>
       &lt;p class="unit xs-1 push-1-2 micro sale-card-text">Tell your friends they suck with this beautiful letterpressed print&lt;/p>
       &lt;p class="unit xs-1 push-1-2 micro">&lt;small>Available in various sizes&lt;/small>&lt;/p>
+    &lt;/div>
+    &lt;div class="sale-icon absolute pin-tl">
+      &lt;i class="icon i-64">
+          &lt;svg class="sm-icon-footer">&lt;use xlink:href="../../images/icons.svg#sale-icon"/>&lt;/svg>
+        &lt;/i>
     &lt;/div>
   &lt;/div>
 &lt;/a>
@@ -2070,7 +2085,7 @@
                 </i>
               </button>
               <code><pre id="forms-date-code-sample-copy-chunk">&lt;div class="push-1-2"&gt;
-  &lt;label for="name">Date&lt;/label>
+  &lt;label for="date">Date&lt;/label>
   &lt;input id="date" type="date" required aria-describedby="name-error">
   &lt;p class="error-message milli island-1-4 push-0" id="name-error">
     &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
@@ -2700,9 +2715,9 @@
       &lt;p class="push-0 micro shipping">Free Shipping until March 14th, 2018&lt;/p>
     &lt;/div>
     &lt;div class="unit xs-1-2 m-1 logo-header island-1-2 text-center">
-      &lt;h1>&lt;a class="block" href="home.html">&lt;img class="logo" src="../../images/logo-crop.svg" alt="">&lt;/a>&lt;/h1>
+      &lt;h1 class="push-0">&lt;a class="block" href="home.html">&lt;img class="logo" src="../../images/logo-crop.svg" alt="Politely Rude">&lt;/a>&lt;/h1>
       &lt;div class="logo-big text-center">
-        &lt;h1>&lt;a class="block" href="home.html">&lt;img class="img-flex" src="../../images/logo-crop.svg" alt="">&lt;/a>&lt;/h1>
+        &lt;h1 class="push-0">&lt;a class="block" href="home.html">&lt;img class="img-flex" src="../../images/logo-crop.svg" alt="Politely Rude">&lt;/a>&lt;/h1>
       &lt;/div>
     &lt;/div>
     &lt;div class="unit xs-1-4 m-0 text-right island-1-2">
@@ -2830,7 +2845,7 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="images-carousel-code-sample-copy-chunk">&lt;main class="gutter pad-b pad-t"&gt;
+              <code><pre id="images-carousel-code-sample-copy-chunk">&lt;main class="gutter-1-2"&gt;
   &lt;ul class="embed embed-1by1 list-group carousel relative">
     &lt;li class="embed-item image image-active" id="image-1">
       &lt;img class="img-flex" src="../../images/always-print.jpg" alt="">
@@ -3190,14 +3205,51 @@
                 </i>
               </button>
               <code><pre id="sections-details-code-sample-copy-chunk">&lt;div class="unit xs-1"&gt;
-  &lt;h3 class="exa">Description&lt;/h3>
+  &lt;h3>Description&lt;/h3>
   &lt;p>Tell your friends and family they suck with this beautiful letterpressed print. Perfect for any bathroom!&lt;/p>
-  &lt;h3 class="exa">Details&lt;/h3>
+  &lt;h3>Details&lt;/h3>
   &lt;dl class="details">
     &lt;dt>Size&lt;/dt>
-    &lt;dd>Select Size&lt;/dd>
+    &lt;dd class="select-size">
+      &lt;form class="max-length" method="post" action="#" novalidate="">
+        &lt;div class="error-message error-message-highlighted push" role="alert" aria-live="assertive">
+          &lt;h3 class="push-0">
+              &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+              &lt;span class="icon-label">There are items that require your attention&lt;/span>
+            &lt;/h3>
+        &lt;/div>
+
+        &lt;label for="size">&lt;/label>
+        &lt;select class="form-no-border" id="size" name="size">
+          &lt;option>8&apos; x 10&apos;&lt;/option>
+          &lt;option>11&apos; x 17&apos;&lt;/option>
+          &lt;option>18&apos; x 24&apos;&lt;/option>
+          &lt;option>24&apos; x 36&apos;&lt;/option>
+        &lt;/select>
+      &lt;/form>
+    &lt;/dd>
+    &lt;dt>Quantity&lt;/dt>
+    &lt;dd>
+      &lt;form class="max-length" method="post" action="#" novalidate="">
+        &lt;div class="error-message error-message-highlighted push" role="alert" aria-live="assertive">
+          &lt;h3 class="push-0">
+              &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+              &lt;span class="icon-label">There are items that require your attention&lt;/span>
+            &lt;/h3>
+        &lt;/div>
+
+        &lt;div>
+          &lt;label for="quantity">&lt;/label>
+          &lt;input class="form-no-border" id="quantity" type="number" required aria-describedby="quantity-error">
+          &lt;p class="error-message milli island-1-4 push-0" id="quantity-error">
+            &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+            &lt;span class="icon-label">Please select a quantity.&lt;/span>
+          &lt;/p>
+        &lt;/div>
+      &lt;/form>
+    &lt;/dd>
   &lt;/dl>
-  &lt;h3 class="exa">Specifications&lt;/h3>
+  &lt;h3>Specifications&lt;/h3>
   &lt;dl class="details">
     &lt;dt>Material&lt;/dt>
     &lt;dd>60 lbs bright white paper&lt;/dd>

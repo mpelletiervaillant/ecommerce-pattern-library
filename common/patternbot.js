@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library
- * @version b62438a4cce2083d2ed9dbf68e33029c872c24af
+ * @version 7b04c2594a29fe4d76223c5325bdacf167586a1a
  */
-const patternManifest_b62438a4cce2083d2ed9dbf68e33029c872c24af = {
+const patternManifest_7b04c2594a29fe4d76223c5325bdacf167586a1a = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -630,15 +630,17 @@ const patternManifest_b62438a4cce2083d2ed9dbf68e33029c872c24af = {
       "bodyBasic": "Our company specializes in hand made prints from Ottawa bound to make you laugh or hate the world."
     },
     "icons": [
-      "icon-checkmark",
-      "twitter",
-      "icon-cart",
       "facebook",
+      "icon-bag",
+      "icon-cart",
+      "icon-checkmark",
       "icon-leaf",
       "icon-maple-leaf",
-      "icon-bag",
       "instagram",
-      "pinterest"
+      "pinterest",
+      "sale-icon",
+      "slash",
+      "twitter"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -693,6 +695,11 @@ const patternManifest_b62438a4cce2083d2ed9dbf68e33029c872c24af = {
         "name": "products.html",
         "namePretty": "Products",
         "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/pages/products.html"
+      },
+      {
+        "name": "test.html",
+        "namePretty": "Test",
+        "path": "/Users/mpelletiervaillant/Desktop/Semester 4/Web Development IV/ecommerce-pattern-library/pages/test.html"
       }
     ],
     "js": []
@@ -1271,5 +1278,5 @@ const patternManifest_b62438a4cce2083d2ed9dbf68e33029c872c24af = {
   }
 };
 
-patternBotIncludes(patternManifest_b62438a4cce2083d2ed9dbf68e33029c872c24af);
+patternBotIncludes(patternManifest_7b04c2594a29fe4d76223c5325bdacf167586a1a);
 }());

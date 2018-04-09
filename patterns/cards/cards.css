@@ -43,6 +43,7 @@
 .sale-card {
   max-width: 340px;
   margin: 0 auto;
+  text-align: left;
 }
 
 .sale-card-text {
@@ -59,7 +60,7 @@
 }
 
 .category-hidden {
-  display: hidden;
+  display: none;
 }
 
 .category-print {

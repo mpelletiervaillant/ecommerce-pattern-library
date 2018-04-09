@@ -50,7 +50,7 @@ a {
   font-family: var(--font-secondary);
   text-transform: uppercase;
   font-weight: 300;
-  transition: color .125s ease-in-out;
+  transition: color .15s ease-in-out;
 }
 
 a:hover {
