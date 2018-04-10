@@ -1,4 +1,5 @@
-$('.button').on('click', function () {
+$('.button').on('click', function (e) {
+  e.preventDefault();
   console.log('I was clcik');
   var id = $(this).attr('href');
 
