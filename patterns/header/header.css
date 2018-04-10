@@ -107,10 +107,6 @@ nav li a:hover {
   color: var(--color-primary);
 }
 
-.logo-big {
-  display: none;
-}
-
 .sm-icon {
   fill: var(--color-primary);
   transition: fill .35s ease;
@@ -141,15 +137,14 @@ nav li a:hover {
     padding: .75rem;
   }
 
-  .logo-big {
+  .logo {
     display: inline-block;
-    max-width: 500px;
+    width: 300px;
   }
 
   .sm-header,
   .slogan,
-  .nav-label,
-  .logo {
+  .nav-label {
     display: none;
   }
 
