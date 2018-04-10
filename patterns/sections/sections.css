@@ -26,6 +26,11 @@
   font-weight: 300;
 }
 
+.details dt,
+.details dd {
+  vertical-align: bottom;
+}
+
 .form-no-border {
   border: none;
 }

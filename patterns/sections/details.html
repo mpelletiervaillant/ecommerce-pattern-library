@@ -10,6 +10,7 @@
   <link href="../../common/theme.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:300,400" rel="stylesheet">
   <link href="sections.css" rel="stylesheet">
+  <link href="../forms/forms.css" rel="stylesheet">
   <link href="../buttons/buttons.css" rel="stylesheet">
 </head>
 <body>
@@ -18,9 +19,9 @@
     <p>Tell your friends and family they suck with this beautiful letterpressed print. Perfect for any bathroom!</p>
     <h3>Details</h3>
     <dl class="details">
-      <dt>Size</dt>
+      <dt class="push">Size</dt>
       <dd class="select-size">
-        <form class="max-length" method="post" action="#" novalidate>
+
           <div class="error-message error-message-highlighted push" role="alert" aria-live="assertive">
             <h3 class="push-0">
               <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
@@ -35,11 +36,9 @@
             <option>18' x 24'</option>
             <option>24' x 36'</option>
           </select>
-        </form>
       </dd>
-      <dt>Quantity</dt>
+      <dt class="push">Quantity</dt>
       <dd>
-        <form class="max-length" method="post" action="#" novalidate>
           <div class="error-message error-message-highlighted push" role="alert" aria-live="assertive">
             <h3 class="push-0">
               <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
@@ -55,25 +54,27 @@
               <span class="icon-label">Please select a quantity.</span>
             </p>
           </div>
-        </form>
+
       </dd>
     </dl>
     <h3>Specifications</h3>
     <dl class="details">
-      <dt>Material</dt>
+      <dt class="push">Material</dt>
       <dd>60 lbs bright white paper</dd>
-      <dt>Colours</dt>
+      <dt class="push">Colours</dt>
       <dd>Black, White</dd>
-      <dt>Artist</dt>
+      <dt class="push">Artist</dt>
       <dd>Nicholas Campbell</dd>
-      <dt>Size</dt>
+      <dt class="push">Size</dt>
       <dd>Multiple Available</dd>
-      <dt>Process</dt>
+      <dt class="push">Process</dt>
       <dd>Letterpress</dd>
     </dl>
     <div class="text-center">
       <a class="btn" href="#">Add to Bag</a>
     </div>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>

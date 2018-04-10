@@ -1,4 +1,5 @@
-$('.filter a').on('click', function () {
+$('.filter a').on('click', function (e) {
+  e.preventDefault();
   console.log('I was click');
   var id = $(this).attr('href');
 
