@@ -7,108 +7,114 @@
   <script src="../common/patternbot.js"></script>
 </head>
 <body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
   <script type="application/json" data-pattern="header/header"></script>
-  <section class="wrapper">
-    <h2 class="nina text-center pad-t-2">Shopping Bag</h2>
-    <script type="application/json" data-pattern="checkout/checkout"></script>
-  </section>
-  <section class="wrapper gutter-1-2">
-    <div class="grid pad-t-2 pad-b-2">
-      <div class="unit xs-1 s-1 m-1-2 l-1-3 gutter-1-2">
-        <script type="application/json" data-pattern="summary/summary"></script>
-      </div>
-      <div class="unit xs-1 s-1 m-1-2 l-2-3">
-        <h3 class="exa gutter-1-2">Checkout</h3>
-        <form method="post" action="#" novalidate>
+  <main class="border-bottom" id="main" role="main" tabindex="0">
+    <section class="wrapper">
+      <h2 class="nina text-center pad-t-2">Shopping Bag</h2>
+      <script type="application/json" data-pattern="checkout/checkout"></script>
+    </section>
+    <section class="wrapper gutter-1-2">
+      <div class="grid pad-t-2 pad-b-2">
+        <div class="unit xs-1 s-1 m-1-2 l-1-3 gutter-1-2">
+          <script type="application/json" data-pattern="summary/summary"></script>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-2-3">
+          <h3 class="exa gutter-1-2">Checkout</h3>
+          <form method="post" action="#" novalidate>
 
-          <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-            <h3 class="push-0">
-              <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-              <span class="icon-label">There are items that require your attention</span>
-            </h3>
-          </div>
+            <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+              <h3 class="push-0">
+                <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+                <span class="icon-label">There are items that require your attention</span>
+              </h3>
+            </div>
 
-          <div class="grid">
-            <div class="unit xs-1 gutter-1-2">
-              <script type="application/json" data-pattern="forms/basic-input"></script>
+            <div class="grid">
+              <div class="unit xs-1 gutter-1-2">
+                <script type="application/json" data-pattern="forms/basic-input"></script>
+              </div>
+              <div class="unit xs-1 gutter-1-2">
+                <script type="application/json" data-pattern="forms/email"></script>
+              </div>
+              <div class="unit xs-1 gutter-1-2">
+                <script type="application/json" data-pattern="forms/basic-input">
+                  {
+                    "label": "Address",
+                    "label[for]": "address",
+                    "input[id]": "address"
+                  }
+                </script>
+              </div>
+              <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-2">
+                <script type="application/json" data-pattern="forms/basic-input">
+                  {
+                    "label": "City",
+                    "label[for]": "city",
+                    "input[id]": "city"
+                  }
+                </script>
+              </div>
+              <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-2">
+                <script type="application/json" data-pattern="forms/auto-complete">
+                </script>
+              </div>
+              <div class="unit xs-1 s-1 m-1 l-1 gutter-1-2">
+                <script type="application/json" data-pattern="forms/basic-input">
+                  {
+                    "label": "Postal Code",
+                    "label[for]": "postal-code",
+                    "input[id]": "postal-code"
+                  }
+                </script>
+              </div>
+              <div class="unit xs-1 s-1 m-1 l-1 gutter-1-2">
+                <script type="application/json" data-pattern="forms/basic-input">
+                  {
+                    "label": "Credit Card Number",
+                    "label[for]": "credit-card-number",
+                    "input[id]": "credit-card-number"
+                  }
+                </script>
+              </div>
+              <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-2">
+                <script type="application/json" data-pattern="forms/date">
+                  {
+                    "label": "Expiry Date",
+                    "label[for]": "expiry-date"
+                  }
+                </script>
+              </div>
+              <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-2">
+                <script type="application/json" data-pattern="forms/basic-input">
+                  {
+                    "label": "CVC",
+                    "label[for]": "cvc",
+                    "input[id]": "cvc"
+                  }
+                </script>
+              </div>
+              <div class="unit xs-1 s-1 m-1 l-1 gutter-1-2 pad-t">
+                <script type="application/json" data-pattern="forms/checkbox">
+                  {
+                    "label": "Yes I would like to recieve promotional offers",
+                    "label[for]": "offers",
+                    "input[id]": "offers"
+                  }
+                </script>
+              </div>
             </div>
-            <div class="unit xs-1 gutter-1-2">
-              <script type="application/json" data-pattern="forms/email"></script>
-            </div>
-            <div class="unit xs-1 gutter-1-2">
-              <script type="application/json" data-pattern="forms/basic-input">
-                {
-                  "label": "Address",
-                  "label[for]": "address",
-                  "input[id]": "address"
-                }
-              </script>
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-2">
-              <script type="application/json" data-pattern="forms/basic-input">
-                {
-                  "label": "City",
-                  "label[for]": "city",
-                  "input[id]": "city"
-                }
-              </script>
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-2">
-              <script type="application/json" data-pattern="forms/auto-complete">
-              </script>
-            </div>
-            <div class="unit xs-1 s-1 m-1 l-1 gutter-1-2">
-              <script type="application/json" data-pattern="forms/basic-input">
-                {
-                  "label": "Postal Code",
-                  "label[for]": "postal-code",
-                  "input[id]": "postal-code"
-                }
-              </script>
-            </div>
-            <div class="unit xs-1 s-1 m-1 l-1 gutter-1-2">
-              <script type="application/json" data-pattern="forms/basic-input">
-                {
-                  "label": "Credit Card Number",
-                  "label[for]": "credit-card-number",
-                  "input[id]": "credit-card-number"
-                }
-              </script>
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-2">
-              <script type="application/json" data-pattern="forms/date">
-                {
-                  "label": "Expiry Date",
-                  "label[for]": "expiry-date"
-                }
-              </script>
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-2">
-              <script type="application/json" data-pattern="forms/basic-input">
-                {
-                  "label": "CVC",
-                  "label[for]": "cvc",
-                  "input[id]": "cvc"
-                }
-              </script>
-            </div>
-            <div class="unit xs-1 s-1 m-1 l-1 gutter-1-2 pad-t">
-              <script type="application/json" data-pattern="forms/checkbox">
-                {
-                  "label": "Yes I would like to recieve promotional offers",
-                  "label[for]": "offers",
-                  "input[id]": "offers"
-                }
-              </script>
-            </div>
+          </form>
+          <div class="unit xs-1 s-1 m-1 l-1 text-center pad-t">
+            <a class="btn" href="#">Checkout</a>
           </div>
-        </form>
-        <div class="unit xs-1 s-1 m-1 l-1 text-center pad-t">
-          <a class="btn" href="#">Checkout</a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
   <script type="application/json" data-pattern="footer/footer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
