@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Politely Rude - Home</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <script type="application/json" data-pattern="header/header"></script>
+  <main class="border-bottom" id="main" role="main" tabindex="0">
+    <section class="pad-t-2 pad-b-2 wrapper">
+      <div class="text-center">
+        <h2 class="push-0">Always remember print</h2>
+        <p class="micro">Created by Nicholas Campbell</p>
+      </div>
+      <div class="gutter">
+        <script type="application/json" data-pattern="navigations/breadcrumbs">
+          {
+            "h3[class]": "hidden"
+          }
+        </script>
+      </div>
+      <div class="grid">
+        <div class="unit [ xs-1 m-1-2 ] gutter-1-2">
+          <script type="application/json" data-pattern="images/carousel">
+            {
+              "#image-3 img[src]": "../images/always-remember-desk-mokcup.jpg"
+            }
+          </script>
+        </div>
+        <div class="unit [ xs-1 m-1-2 ] gutter-1-2">
+          <script type="application/json" data-pattern="sections/details"></script>
+        </div>
+      </div>
+    </section>
+  </main>
+  <aside class="wrapper pad-b-2 pad-t-2">
+    <h2 class="text-center">You may also hate</h2>
+    <ul class="list-group grid">
+      <li class="gutter unit xs-1 m-1-3">
+        <script type="application/json" data-pattern="cards/item-card"></script>
+      </li>
+      <li class="gutter unit xs-1 m-1-3">
+        <script type="application/json" data-pattern="cards/item-card">
+        {
+          "img[src]": "../images/donut-mockup.jpg",
+          ".item-card-title": "Donut",
+          ".item-card-style": "Digital",
+          ".item-card-price": "$20"
+        }
+        </script>
+      </li>
+      <li class="gutter unit xs-1 m-1-3">
+        <script type="application/json" data-pattern="cards/item-card">
+        {
+          "img[src]": "../images/expensive-mockup.jpg",
+          ".item-card-title": "Expensive",
+          ".item-card-style": "Letterpressed",
+          ".item-card-price": "$25"
+        }
+        </script>
+      </li>
+    </ul>
+  </aside>
+  <script type="application/json" data-pattern="footer/footer">
+
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
