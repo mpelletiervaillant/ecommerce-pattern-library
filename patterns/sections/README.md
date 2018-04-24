@@ -8,4 +8,4 @@ details:
     The details section gives more information about the product.
 ---
 
-Navigations are made to help the user navigate the website and understand its sitemap.
+Use these various section patterns to create flow on the page.
